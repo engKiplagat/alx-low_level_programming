@@ -1,19 +1,13 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 /**
- * main - check the code
- * Return: Always 0.
+ * _putchar writes the character c to stdout 
+ *@c: character to print
+ *Return: on success 1
+ *on error -1 is returned. errno is set appropriately.
  */
-int main(void)
-}
-        char  _putchar;
+int _putchar(char c)
+{
+	return(write(1,@c,1));
 
-	while( _putchar < 3, i++)
-	{
-		printf("\n");
-	}
-        {
-	printf ("_putchar\n");
-	char = _putchar();
-        }
-return (0);
 }
